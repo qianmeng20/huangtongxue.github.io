@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00b894;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#00cec9;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="400" height="300" fill="url(#grad)"/>
+    <circle cx="180" cy="120" r="15" fill="white"/>
+    <circle cx="220" cy="120" r="15" fill="white"/>
+    <path d="M160 150C160 150 180 170 200 170C220 170 240 150 240 150" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <path d="M150 100L170 80M250 100L230 80" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <text x="200" y="220" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">宠物写真</text>
+</svg>

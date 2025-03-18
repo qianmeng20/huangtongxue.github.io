@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#6C5CE7;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#a363d9;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="400" height="300" fill="url(#grad)"/>
+    <rect x="160" y="100" width="80" height="80" rx="10" stroke="white" stroke-width="8" fill="none"/>
+    <path d="M180 140L220 140M200 120L200 160" stroke="white" stroke-width="8" stroke-linecap="round"/>
+    <text x="200" y="220" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">定制服务</text>
+</svg>

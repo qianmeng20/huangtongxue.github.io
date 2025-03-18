@@ -1,11 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Github Pages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI艺术创作展示 - ComfyUI案例</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <h1>Hello World!666</h1>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="AI艺术工作室" class="logo-image">
+                <span>AI艺术工作室</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active">首页</a>
+                <a href="services.html">服务</a>
+                <a href="courses.html">课程</a>
+                <a href="activities.html">活动</a>
+                <a href="gallery.html">作品</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="animate">未来已来，你来不来？</h1>
+            <p class="animate">多元像素，帮助你掌握 AI 在新时代快人一步！</p>
+            <div class="tags animate">
+                <span class="tag">#AI人像</span>
+                <span class="tag">#AI老照片修复</span>
+                <span class="tag">#AI换脸</span>
+                <span class="tag">#AI证件照</span>
+                <span class="tag">#AI室内设计</span>
+                <span class="tag">#AI电商</span>
+                <span class="tag">#AI视频</span>
+            </div>
+            <div class="animate">
+                <a href="services.html" class="btn btn-primary">开始体验</a>
+                <a href="services.html" class="btn btn-secondary">了解更多</a>
+            </div>
+            <div class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+                <span>向下滚动</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>我们的优势</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="images/feature1.jpg" alt="高效AI创作" class="card-image">
+                    <div class="card-content">
+                        <h3>高效AI创作</h3>
+                        <p>采用高效Comfyui一键自动化工作流，高效创作，简单上手，让小白也能轻松使用AI</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/feature2.jpg" alt="最新行业技术" class="card-image">
+                    <div class="card-content">
+                        <h3>最新行业技术</h3>
+                        <p>采用最新行业技术，让AI创作更加高效，更加专业</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/feature3.jpg" alt="专业助理协助" class="card-image">
+                    <div class="card-content">
+                        <h3>专业助理协助</h3>
+                        <p>专业助理协助，1v1程序运营协助，全程为你的创作提供帮助</p>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down-arrow">
+                <span>向下滚动</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>服务项目</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>AI出图服务</h3>
+                    <p>专业的AI模型训练和调试，为你提供高质量的AI生成图像</p>
+                    <ul>
+                        <li>无限次生成</li>
+                        <li>专业模型支持</li>
+                        <li>7*24技术支持</li>
+                    </ul>
+                    <a href="#" class="btn">了解更多</a>
+                </div>
+                <div class="service-item">
+                    <h3>Lora风格模型训练</h3>
+                    <p>专业的Lora模型训练服务，打造专属于你的AI风格</p>
+                    <ul>
+                        <li>专业训练流程</li>
+                        <li>一对一技术指导</li>
+                        <li>持续优化支持</li>
+                    </ul>
+                    <a href="#" class="btn">了解更多</a>
+                </div>
+                <div class="service-item">
+                    <h3>Comfyui技术服务</h3>
+                    <p>专业的Comfyui技术培训，让你快速掌握AI创作技能</p>
+                    <ul>
+                        <li>项目教程</li>
+                        <li>实战案例</li>
+                        <li>技术答疑</li>
+                    </ul>
+                    <a href="#" class="btn">开始学习</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="animate">精选作品</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item animate">
+                    <img src="images/placeholder.svg" alt="AI艺术作品1" class="gallery-image">
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/placeholder.svg" alt="AI艺术作品2" class="gallery-image">
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/placeholder.svg" alt="AI艺术作品3" class="gallery-image">
+                </div>
+                <div class="gallery-item animate">
+                    <img src="images/placeholder.svg" alt="AI艺术作品4" class="gallery-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-links">
+                        <a href="#" title="抖音"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                        <a href="#" title="微信"><i class="fab fa-weixin"></i></a>
+                        <a href="#" title="QQ群"><i class="fab fa-qq"></i></a>
+                        <a href="#" title="快手"><i class="fas fa-video"></i></a>
+                        <a href="#" title="小红书"><i class="fas fa-book"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-info-circle"></i> 服务介绍</a>
+                        <a href="#"><i class="fas fa-user"></i> 关于我们</a>
+                        <a href="#"><i class="fas fa-key"></i> 使用教程</a>
+                        <a href="#"><i class="fas fa-cog"></i> 价格方案</a>
+                        <a href="#"><i class="fas fa-book"></i> 学习专栏</a>
+                        <a href="#"><i class="fas fa-globe"></i> 知识星球</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>友情链接</h3>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-paint-brush"></i> Stable Diffusion</a>
+                        <a href="#"><i class="fas fa-magic"></i> Midjourney</a>
+                        <a href="#"><i class="fas fa-laptop-code"></i> ComfyUI</a>
+                        <a href="#"><i class="fas fa-cloud"></i> 仙宫云</a>
+                        <a href="#"><i class="fas fa-cloud"></i> 集智智云</a>
+                        <a href="#"><i class="fas fa-users"></i> 会员工作室定制</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> 服务合作: 286974865@qq.com</p>
+                <p><i class="fas fa-phone"></i> 联系电话: 17760187082</p>
+                <p><i class="fas fa-map-marker-alt"></i> 地址: 四川省成都市高新区</p>
+            </div>
+            <div class="footer-bottom">
+              <p> 2025 RICK团队. 保留所有权利 | <span class="icp">蜀ICP备2024107903号</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 移动端菜单切换
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+
+            // 点击导航链接后关闭菜单
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('show');
+                });
+            });
+
+            // 点击页面其他区域关闭菜单
+            document.addEventListener('click', function(event) {
+                const isClickInside = navLinks.contains(event.target) || menuToggle.contains(event.target);
+                if (!isClickInside && navLinks.classList.contains('show')) {
+                    navLinks.classList.remove('show');
+                }
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>

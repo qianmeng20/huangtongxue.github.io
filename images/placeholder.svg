@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="300" fill="#F0F2F5"/>
+    <rect x="160" y="100" width="80" height="80" rx="40" fill="#4169E1"/>
+    <path d="M200 120C186.745 120 176 130.745 176 144C176 157.255 186.745 168 200 168C213.255 168 224 157.255 224 144C224 130.745 213.255 120 200 120ZM200 164C188.954 164 180 155.046 180 144C180 132.954 188.954 124 200 124C211.046 124 220 132.954 220 144C220 155.046 211.046 164 200 164Z" fill="white"/>
+    <text x="200" y="200" text-anchor="middle" font-family="Arial" font-size="14" fill="#666">点击上传图片</text>
+</svg>

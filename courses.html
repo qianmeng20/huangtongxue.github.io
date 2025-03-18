@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>课程 - RICK团队</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="AI艺术工作室" class="logo-image">
+                <span>AI艺术工作室</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="services.html">服务</a>
+                <a href="courses.html" class="active">课程</a>
+                <a href="activities.html">活动</a>
+                <a href="gallery.html">作品</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- 课程英雄区域 -->
+    <section class="course-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">空前课程上线</div>
+                <h1>Comfyui基础课程</h1>
+                <p class="description">从入门到精通的AI绘画课程之路，让创作更简单、更高效</p>
+                <div class="cta-buttons">
+                    <a href="#" class="primary-button">
+                        <i class="fas fa-comments"></i>
+                        立即咨询
+                    </a>
+                    <a href="#" class="secondary-button">
+                        <i class="fas fa-play-circle"></i>
+                        观看介绍
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/course-hero.svg" alt="ComfyUI课程界面">
+            </div>
+        </div>
+    </section>
+
+    <!-- 课程特性 -->
+    <section class="course-features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>零基础入门</h3>
+                    <p>适合新手的入门课程，从基础概念开始，循序渐进</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>工作流进阶</h3>
+                    <p>掌握核心功能，构建高效的AI绘画工作流</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>实战演练</h3>
+                    <p>真实案例操作，即学即用，快速上手</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>社群交流</h3>
+                    <p>加入学习社群，分享经验与作品</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关于我们</h3>
+                    <p>RICK团队致力于为用户提供优质的AI创作服务和培训课程。</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <div class="footer-links">
+                        <a href="services.html"><i class="fas fa-angle-right"></i>服务</a>
+                        <a href="courses.html"><i class="fas fa-angle-right"></i>课程</a>
+                        <a href="works.html"><i class="fas fa-angle-right"></i>作品</a>
+                        <a href="activities.html"><i class="fas fa-angle-right"></i>活动</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>联系方式</h3>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-phone"></i>电话：123-456-7890</a>
+                        <a href="#"><i class="fas fa-envelope"></i>邮箱：contact@rick.com</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i>地址：四川省成都市高新区</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RICK团队. 保留所有权利 | <span class="icp">蜀ICP备2024107903号</span></p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // 移动端菜单切换
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+
+            // 点击导航链接后关闭菜单
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('show');
+                });
+            });
+
+            // 点击页面其他区域关闭菜单
+            document.addEventListener('click', function(event) {
+                const isClickInside = navLinks.contains(event.target) || menuToggle.contains(event.target);
+                if (!isClickInside && navLinks.classList.contains('show')) {
+                    navLinks.classList.remove('show');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

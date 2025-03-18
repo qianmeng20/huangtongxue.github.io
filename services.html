@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务 - ComfyUI案例</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="AI艺术工作室" class="logo-image">
+                <span>AI艺术工作室</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">首页</a>
+                <a href="services.html" class="active">服务</a>
+                <a href="courses.html">课程</a>
+                <a href="activities.html">活动</a>
+                <a href="gallery.html">作品</a>
+                <a href="contact.html">联系我们</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <div class="container">
+                <h1>Comfyui 工作流</h1>
+                <p>专业的 AI 绘画工作流，让创作更简单高效，释放无限创意可能</p>
+            </div>
+        </section>
+
+        <section class="service-cards">
+            <div class="container">
+                <div class="cards-slider">
+                    <div class="cards-wrapper">
+                        <!-- 第一页卡片 -->
+                        <div class="cards-grid">
+                            <!-- 白金会员卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">白金会员</div>
+                                <div class="card-image">
+                                    <img src="images/vip-card.jpg" alt="VIP会员">
+                                </div>
+                                <div class="card-content">
+                                    <h3>白金会员特权</h3>
+                                    <p>解锁所有系列工作流，享受会员专属服务，包含定制更新和技术支持</p>
+                                    <div class="price">
+                                        <span class="amount">¥1499</span>
+                                        <span class="period">/套餐</span>
+                                        <span class="discount">超值优惠</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>全系列工作流</span>
+                                        <span>优先技术支持</span>
+                                        <span>VIP服务</span>
+                                    </div>
+                                    <a href="#" class="card-button">立即开通 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 定制服务卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">定制服务</div>
+                                <div class="card-image">
+                                    <img src="images/custom-service.jpg" alt="定制服务">
+                                </div>
+                                <div class="card-content">
+                                    <h3>定制工作流服务</h3>
+                                    <p>根据您的具体需求定制专属工作流，提供一对一技术支持和培训</p>
+                                    <div class="price">
+                                        <span class="amount">¥?</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>定制服务</span>
+                                        <span>技术支持</span>
+                                        <span>流程优化</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 宠物系列卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">宠物系列</div>
+                                <div class="card-image">
+                                    <img src="images/pet-service.jpg" alt="宠物写真">
+                                </div>
+                                <div class="card-content">
+                                    <h3>宠物系列工作流</h3>
+                                    <p>专业的宠物写真效果，包含多种场景与风格模板，让宠物照片更有魅力</p>
+                                    <div class="price">
+                                        <span class="amount">¥598</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>写真风格</span>
+                                        <span>场景合成</span>
+                                        <span>高清输出</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 老照片修复卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">修复系列</div>
+                                <div class="card-image">
+                                    <img src="images/photo-restore.jpg" alt="照片修复">
+                                </div>
+                                <div class="card-content">
+                                    <h3>老照片修复系列</h3>
+                                    <p>专业的老照片修复和上色服务，修复破损，去除噪点，智能上色</p>
+                                    <div class="price">
+                                        <span class="amount">¥698</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>修复破损</span>
+                                        <span>智能上色</span>
+                                        <span>画质增强</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 第二页卡片 -->
+                        <div class="cards-grid">
+                            <!-- 摄影后期卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">后期系列</div>
+                                <div class="card-image">
+                                    <img src="images/post-production.jpg" alt="摄影后期">
+                                </div>
+                                <div class="card-content">
+                                    <h3>摄影后期系列</h3>
+                                    <p>专业的摄影后期调色与场景优化，包含多种风格预设</p>
+                                    <div class="price">
+                                        <span class="amount">¥698</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>专业调色</span>
+                                        <span>场景优化</span>
+                                        <span>人像美化</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 换脸系列卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">换脸系列</div>
+                                <div class="card-image">
+                                    <img src="images/face-swap.jpg" alt="换脸系列">
+                                </div>
+                                <div class="card-content">
+                                    <h3>换脸系列</h3>
+                                    <p>精准的人物换脸与风格迁移技术，保持自然表情和细节</p>
+                                    <div class="price">
+                                        <span class="amount">¥498</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>自然换脸</span>
+                                        <span>风格迁移</span>
+                                        <span>光影匹配</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 虚拟人像卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">虚拟人像</div>
+                                <div class="card-image">
+                                    <img src="images/virtual-portrait.jpg" alt="虚拟人像">
+                                </div>
+                                <div class="card-content">
+                                    <h3>虚拟人像系列</h3>
+                                    <p>专业的虚拟人像生成与编辑，支持多风格定制，打造独特形象</p>
+                                    <div class="price">
+                                        <span class="amount">¥498</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>虚拟人像</span>
+                                        <span>场景定制</span>
+                                        <span>风格定制</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+
+                            <!-- 电商系列卡片 -->
+                            <div class="service-card">
+                                <div class="card-badge">电商系列</div>
+                                <div class="card-image">
+                                    <img src="images/ecommerce.jpg" alt="电商系列">
+                                </div>
+                                <div class="card-content">
+                                    <h3>电商系列</h3>
+                                    <p>专业的电商产品图生成与编辑，支持多角度展示，场景模板</p>
+                                    <div class="price">
+                                        <span class="amount">¥698</span>
+                                        <span class="period">/套餐</span>
+                                    </div>
+                                    <div class="features">
+                                        <span>电商模板</span>
+                                        <span>场景合成</span>
+                                        <span>展示优化</span>
+                                    </div>
+                                    <a href="#" class="card-button">查看详情 →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 导航按钮 -->
+                    <button class="nav-button prev" id="prevButton">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-button next" id="nextButton">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const wrapper = document.querySelector('.cards-wrapper');
+                const prevButton = document.getElementById('prevButton');
+                const nextButton = document.getElementById('nextButton');
+                let currentPage = 0;
+
+                function updateSlider() {
+                    wrapper.style.transform = `translateX(-${currentPage * 100}%)`;
+                    prevButton.style.display = currentPage === 0 ? 'none' : 'flex';
+                    nextButton.style.display = currentPage === 1 ? 'none' : 'flex';
+                }
+
+                prevButton.addEventListener('click', () => {
+                    if (currentPage > 0) {
+                        currentPage--;
+                        updateSlider();
+                    }
+                });
+
+                nextButton.addEventListener('click', () => {
+                    if (currentPage < 1) {
+                        currentPage++;
+                        updateSlider();
+                    }
+                });
+
+                updateSlider();
+            });
+        </script>
+
+        <section class="comfyui-plans">
+            <div class="container">
+                <h2>ComfyUI工作流计划</h2>
+                <p>选择最适合您的计划，开启AI创作之旅</p>
+                <div class="plans-grid">
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <img src="images/service1.svg" alt="基础计划">
+                            <h3>基础计划</h3>
+                            <p>适合个人用户和初学者</p>
+                            <div class="tags">
+                                <span>基础工作流</span>
+                                <span>技术支持</span>
+                            </div>
+                            <div class="price">
+                                <span class="amount">¥99</span>
+                                <span class="period">/月</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plan-card">
+                        <div class="plan-header">
+                            <img src="images/service2.svg" alt="专业计划">
+                            <h3>专业计划</h3>
+                            <p>适合专业创作者和工作室</p>
+                            <div class="tags">
+                                <span>高级工作流</span>
+                                <span>定制支持</span>
+                                <span>优先响应</span>
+                            </div>
+                            <div class="price">
+                                <span class="amount">¥299</span>
+                                <span class="period">/月</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ai-service">
+            <div class="container">
+                <h2>AI出图服务</h2>
+                <p>专业的AI绘画服务，让您的创意快速变为现实</p>
+                <div class="service-detail">
+                    <div class="service-image">
+                        <img src="images/gallery1.svg" alt="AI出图服务">
+                    </div>
+                    <div class="service-info">
+                        <h3>定制AI艺术创作</h3>
+                        <p>我们提供专业的AI艺术创作服务，根据您的需求定制独特的艺术作品</p>
+                        <div class="price-options">
+                            <div class="price original">¥199</div>
+                            <div class="price discounted">¥149<span>/张</span></div>
+                        </div>
+                        <div class="service-features">
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>高清晰度输出</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>风格多样化</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>快速交付</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-check"></i>
+                                <span>免费修改</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lora-service">
+            <div class="container">
+                <h2>Lora模型训练</h2>
+                <p>为您的特定需求训练专属的Lora模型</p>
+                <div class="lora-cards">
+                    <div class="lora-card">
+                        <img src="images/gallery2.svg" alt="人物Lora">
+                        <h3>人物Lora训练</h3>
+                        <p>为您训练独特的人物风格模型</p>
+                        <div class="price-row">
+                            <div class="train-price">
+                                <span class="label">训练费用</span>
+                                <span class="amount">¥999</span>
+                            </div>
+                            <div class="use-price">
+                                <span class="label">使用授权</span>
+                                <span class="amount">¥299/月</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li>数据集处理</li>
+                            <li>模型训练优化</li>
+                            <li>效果展示</li>
+                            <li>技术支持</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-guarantee">
+            <div class="container">
+                <h2>服务保障</h2>
+                <p>我们承诺为您提供最优质的服务</p>
+                <div class="guarantee-grid">
+                    <div class="guarantee-card">
+                        <i class="fas fa-headset"></i>
+                        <h3>7x24小时支持</h3>
+                        <p>随时为您解答问题，提供技术支持</p>
+                    </div>
+                    <div class="guarantee-card">
+                        <i class="fas fa-sync"></i>
+                        <h3>持续更新</h3>
+                        <p>定期更新模型和工作流，保持技术领先</p>
+                    </div>
+                    <div class="guarantee-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>安全保障</h3>
+                        <p>严格保护您的数据和知识产权</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 二维码弹窗 -->
+    <div class="qr-modal" id="qrModal">
+        <div class="qr-content">
+            <button class="qr-close" onclick="closeQRModal()">&times;</button>
+            <h3>联系客服</h3>
+            <p>扫描下方二维码添加客服微信</p>
+            <img src="images/qr-code.png" alt="客服二维码" class="qr-code">
+            <a href="#" class="ai-consultation">AI咨询问答</a>
+        </div>
+    </div>
+
+    <script>
+        // 为所有卡片按钮添加点击事件
+        document.addEventListener('DOMContentLoaded', function() {
+            const cardButtons = document.querySelectorAll('.card-button');
+            cardButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    openQRModal();
+                });
+            });
+        });
+
+        // 打开二维码弹窗
+        function openQRModal() {
+            const modal = document.getElementById('qrModal');
+            modal.classList.add('active');
+            // 禁止背景滚动
+            document.body.style.overflow = 'hidden';
+        }
+
+        // 关闭二维码弹窗
+        function closeQRModal() {
+            const modal = document.getElementById('qrModal');
+            modal.classList.remove('active');
+            // 恢复背景滚动
+            document.body.style.overflow = '';
+        }
+
+        // 点击弹窗外部关闭弹窗
+        document.getElementById('qrModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeQRModal();
+            }
+        });
+    </script>
+
+    <script>
+        // 移动端菜单切换
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            menuToggle.addEventListener('click', function() {
+                navLinks.classList.toggle('show');
+            });
+
+            // 点击导航链接后关闭菜单
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.classList.remove('show');
+                });
+            });
+
+            // 点击页面其他区域关闭菜单
+            document.addEventListener('click', function(event) {
+                const isClickInside = navLinks.contains(event.target) || menuToggle.contains(event.target);
+                if (!isClickInside && navLinks.classList.contains('show')) {
+                    navLinks.classList.remove('show');
+                }
+            });
+        });
+    </script>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>关注我们</h3>
+                    <div class="social-links">
+                        <a href="#" title="抖音"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+                        <a href="#" title="微信"><i class="fab fa-weixin"></i></a>
+                        <a href="#" title="QQ群"><i class="fab fa-qq"></i></a>
+                        <a href="#" title="快手"><i class="fas fa-video"></i></a>
+                        <a href="#" title="小红书"><i class="fas fa-book"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-info-circle"></i> 服务介绍</a>
+                        <a href="#"><i class="fas fa-user"></i> 关于我们</a>
+                        <a href="#"><i class="fas fa-key"></i> 使用教程</a>
+                        <a href="#"><i class="fas fa-cog"></i> 价格方案</a>
+                        <a href="#"><i class="fas fa-book"></i> 学习专栏</a>
+                        <a href="#"><i class="fas fa-globe"></i> 知识星球</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>友情链接</h3>
+                    <div class="footer-links">
+                        <a href="#"><i class="fas fa-paint-brush"></i> Stable Diffusion</a>
+                        <a href="#"><i class="fas fa-magic"></i> Midjourney</a>
+                        <a href="#"><i class="fas fa-laptop-code"></i> ComfyUI</a>
+                        <a href="#"><i class="fas fa-cloud"></i> 仙宫云</a>
+                        <a href="#"><i class="fas fa-cloud"></i> 集智智云</a>
+                        <a href="#"><i class="fas fa-users"></i> 会员工作室定制</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> 服务合作: 286974865@qq.com</p>
+                <p><i class="fas fa-phone"></i> 联系电话: 17760187082</p>
+                <p><i class="fas fa-map-marker-alt"></i> 地址: 四川省成都市高新区</p>
+            </div>
+            <div class="footer-bottom">
+                <p> 2025 RICK团队. 保留所有权利 | <span class="icp">蜀ICP备2024107903号</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
